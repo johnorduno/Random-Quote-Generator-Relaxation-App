@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="204.10716mm"
+   height="181.42859mm"
+   viewBox="0 0 204.10716 181.42859"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="music_off.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.24748737"
+     inkscape:cx="-1764.7333"
+     inkscape:cy="-320.61582"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-12.095241,-91.380951)">
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.17426826"
+       id="rect815"
+       width="204.10716"
+       height="181.42859"
+       x="12.095241"
+       y="91.380951" />
+    <ellipse
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.29974115"
+       id="path817"
+       cx="114.90477"
+       cy="183.22916"
+       rx="89.202385"
+       ry="88.068451" />
+    <g
+       id="g902"
+       transform="translate(661.75935,-7.4835468)">
+      <rect
+         y="141.31294"
+         x="-577.39441"
+         height="10.690782"
+         width="69.917717"
+         id="rect859"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.16202354" />
+      <rect
+         y="141.31294"
+         x="-577.39441"
+         height="64.144684"
+         width="10.263152"
+         id="rect861"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.16202354" />
+      <rect
+         y="141.31294"
+         x="-517.73987"
+         height="80.849037"
+         width="10.263152"
+         id="rect861-1"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.18190105" />
+      <ellipse
+         ry="14.03165"
+         rx="19.884857"
+         cy="207.46214"
+         cx="-587.01617"
+         id="path880"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.16202354" />
+      <ellipse
+         ry="14.03165"
+         rx="19.884857"
+         cy="223.49831"
+         cx="-527.36157"
+         id="path880-4"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.16202354" />
+    </g>
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.20789312"
+       id="rect904"
+       width="9.2590046"
+       height="188.61888"
+       x="52.979939"
+       y="-306.0863"
+       transform="matrix(-0.73647275,0.67646721,-0.74460003,-0.6675109,0,0)" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       id="rect906"
+       width="0.37797621"
+       height="25.702381"
+       x="-517.4494"
+       y="156.20389" />
+  </g>
+</svg>

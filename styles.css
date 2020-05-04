@@ -1,0 +1,102 @@
+/* Teamtreehouse Full Stack Javascript Techdegree Project 1: Random Quote Generator
+By: John Orduno
+Coded in VS Code */
+
+body {
+    background-color: black;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    padding-left:4px;
+    padding-right: 4px;
+    color: lightskyblue;
+}
+
+hr {
+    height: 0;
+    border: 0;
+    border-top: 2px solid lightskyblue;
+}
+
+#logo {
+    width: 50px;
+}
+
+/* Fonts from https://fonts.google.com/ */
+nav {
+    margin-bottom: 10px;
+    font-size: 2.3rem;
+    font-family: 'Courgette', cursive;
+    border: 2px solid lightskyblue;
+}
+
+#imagecontainer {
+    width: 100%;
+    height: 1000px;
+    background-size: contain;
+}    
+
+/* flexbox source: https://www.w3schools.com/csS/css3_flexbox.asp */
+#quoteContainer {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    height: 700px;
+    margin:auto;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Courgette', cursive;
+}
+
+#quote {
+    font-size: 2.3rem; 
+}
+
+#author {
+    font-size: 1.5rem;
+}
+
+#controlBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width:100%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#prevButton {
+    
+    width: 50px;
+    height: 50px;
+}
+
+#pauseButton {
+    width: 50px;
+    height: 50px;
+}
+
+#musicButton {
+    width: 50px;
+    height: 50px;
+}
+
+#photoCredit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.1rem;
+}
+
+#musicCredit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.1rem;
+}

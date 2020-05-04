@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<!-- Teamtreehouse Full Stack Javascript Techdegree Project 1: Random Quote Generator
+By: John Orduno
+Coded in VS Code -->
+
+<html>
+    <head>
+        <title>
+            Let's Get Tranquil
+        </title>
+        <!-- Fonts by https://fonts.google.com/ -->
+        <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <nav>
+            <span id="logo">Let's Get Tranquil</span>
+            <img src="images\logo.svg" id="logo" alt="moon logo">
+        
+        </nav>
+        <hr>
+        <div id="imageContainer">
+
+            <div id="quoteContainer">
+                <p id="quote"><br><br><br></p>
+                <p id="author"></p>
+            </div>
+
+        </div>
+        <hr>
+        <div id="controlBar">
+            <!--audio code source https://stackoverflow.com/questions/27368778/how-to-toggle-audio-play-pause-with-one-button-or-link -->
+            <audio id="tranquilAudio" src="2019-04-26_-_Tranquility_-_www.fesliyanstudios.com.mp3" preload="auto" loop></audio>
+            <!-- image as button, source: https://stackoverflow.com/questions/16131988/making-an-image-act-like-a-button-->
+            <input type="image" src="images\back_disabled.svg" id="prevButton" onclick="prevQuote()" disabled>
+            <img src="images\pause.svg" id="pauseButton" onclick="setTimer(timer)">
+            <img src="images\music_off.svg" id="musicButton" onclick="toggleMusic()">
+        </div>
+        
+        <div>
+            <p id="photoCredit"></p>
+            <p id="musicCredit"><a href="https://www.youtube.com/watch?v=ilbFTexUEk4">Music</a> by <a href="https://www.fesliyanstudios.com/royalty-free-music/downloads-c/peaceful-and-relaxing-music/22">Fesliyan Studios</a></p>
+        </div>
+    
+        <footer>
+        </footer>
+
+        <!-- Custom Javascript -->
+        <script src="quoteArray.js"></script>
+        <script src="programLoop.js"></script>
+    </body>
+</html>
