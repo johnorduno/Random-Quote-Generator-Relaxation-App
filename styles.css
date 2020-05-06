@@ -5,6 +5,8 @@ Coded in VS Code */
 body {
     background-color: black;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5em;
 }
 
 a {
@@ -27,14 +29,13 @@ hr {
 /* Fonts from https://fonts.google.com/ */
 nav {
     margin-bottom: 10px;
-    font-size: 2.3rem;
+    font-size: 4.3em;
     font-family: 'Courgette', cursive;
-    border: 2px solid lightskyblue;
 }
 
 #imagecontainer {
-    width: 100%;
-    height: 1000px;
+    width: 80%;
+    height: auto;
     background-size: contain;
 }    
 
@@ -45,7 +46,7 @@ nav {
     flex-direction: column;
     align-items: center; 
     justify-content: center;
-    height: 700px;
+    height: 800px;
     margin:auto;
     background-color: rgba(0,0,0,0.7);
     color: white;
@@ -55,11 +56,11 @@ nav {
 }
 
 #quote {
-    font-size: 2.3rem; 
+    font-size: 4.5em; 
 }
 
 #author {
-    font-size: 1.5rem;
+    font-size: 2.5em;
 }
 
 #controlBar {
@@ -99,4 +100,62 @@ nav {
     flex-direction: row;
     justify-content: center;
     font-size: 1.1rem;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+   
+   
+    
+    #logo {
+        width: 40px;
+    }
+    
+    nav {
+        margin-bottom: 10px;
+        font-size: 3.5em;
+        font-family: 'Courgette', cursive;
+    }
+    
+    #imagecontainer {
+        height: 400px;
+    }    
+    
+    #quoteContainer {
+        height: 400px;
+    }
+    
+    #quote {
+        font-size: 2.5em; 
+    }
+    
+    #author {
+        font-size: 2.0em;
+    }
+     
+    #prevButton {
+        
+        width: 40px;
+        height: 40px;
+    }
+    
+    #pauseButton {
+        width: 40px;
+        height: 40px;
+    }
+    
+    #musicButton {
+        width: 40px;
+        height: 40px;
+    }
+    
+    #photoCredit {
+        font-size: 1.5em;
+    }
+    
+    #musicCredit {
+        font-size: 1.5em;
+    }
+
 }

@@ -100,7 +100,7 @@ var quoteArray = [
 {
        quote : "We can easily forgive a child who is afraid of the dark; the real tragedy of life is when men are afraid of the light.", author : "Plato"}, 
 {
-       quote : "Teach thy tongue to say,  &quot;I do not know, &quot; and thous shalt progress.", author : "Maimonides"}, 
+       quote : "Teach thy tongue to say,  &quot;I do not know, &quot; and thou shalt progress.", author : "Maimonides"}, 
 {
        quote : "Start where you are. Use what you have.  Do what you can.", author : "Arthur Ashe"}, 
 {

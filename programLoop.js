@@ -19,8 +19,24 @@ var tranquilAudio = document.getElementById("tranquilAudio");
 var musicOn = false;
 var alreadyViewed = [];
 
-//start music
-//tranquilAudio.play();
+//media queries for background image size *********************************
+var mobile = window.matchMedia("(max-width: 600px)")
+var tablet = window.matchMedia("(max-width: 1000px)")
+
+function mobileQuery(mobile) {
+    if (mobile.matches) { // If media query matches
+      imageContainer.style.backgroundSize = "100% 80%";
+    }
+  }
+  mobile.addListener(mobileQuery);
+
+  function tabletQuery(tablet) {
+    if (tablet.matches) { // If media query matches
+        imageContainer.style.backgroundSize = "100% 80%";
+    }
+  }
+  tablet.addListener(tabletQuery);
+//***********************************************************************
 
 //run first quote
 quoteGenerator();
@@ -48,20 +64,15 @@ function quoteGenerator(){
                 console.log(alreadyQuoted.length);
                 quoteGenerator()
                 }else{
-                    // if all quotes have been displayed, reset the array... confirm if user wants to restart
-                    setTimer();
-                    var conf = confirm("All quotes have been displayed! Click 'OK' to start over.")
-                    if (conf){
-                        quoteStorageLength = 0;
-                        alreadyQuoted = [];
-                        setTimer();
-                    }
+                    // if all quotes have been displayed, reset the array
+                    quoteStorageLength = 0;
+                    alreadyQuoted = [];
                 }
         }
     }
 }
 
-function setTimer() {
+function pauseQuotes() {
     if(run){
         run = false; 
         pauseButton.src = 'images/play.svg';
@@ -120,6 +131,7 @@ function pickImage() {
                 photoCredit.innerHTML = "Photo by <a href='/photographer/danisman-34520'> Emre Danisman </a> from <a href='https://freeimages.com/'>FreeImages</a>";
                 break;
         }
+        imageContainer.style.backgroundSize = "100% 100%";
         alreadyViewed.push(imageIndex);
     }else{
         if (alreadyViewed.length < 4){
