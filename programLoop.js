@@ -115,20 +115,20 @@ function pickImage() {
     if(!alreadyViewed.includes(imageIndex)) {
         switch (imageIndex) {
             case 0:
-                imageContainer.style.background = "url('./images/mushroom-1408483.jpg') no-repeat center center";
-                photoCredit.innerHTML = "Photo by <a href='/photographer/ernestbon-43034'> Christoph van der Bij </a> from <a href='https://freeimages.com/'>FreeImages</a>";
+                imageContainer.style.background = "url('./images/japanese-festival-2-1421982.jpg') no-repeat center center";
+                photoCredit.innerHTML = "Photo by <a href='/photographer/pasdechat-43526'>kaoru yamamoto</a> from <a href='https://freeimages.com/'>FreeImages</a>";
                 break;
             case 1:
-                imageContainer.style.background = "url('./images/grand-canyon-1550787.jpg') no-repeat center center";
-                photoCredit.innerHTML = "Photo by <a href='/photographer/jajal1-37772'> jajal1 </a> from <a href='https://freeimages.com/'>FreeImages</a>";
+                imageContainer.style.background = "url('./images/japanese-cherry-blossoms-1401002-1919x1188 (1).jpg') no-repeat center center";
+                photoCredit.innerHTML = "Photo by <a href='/photographer/ljweb-40418'>Lars Jensen</a> from <a href='https://freeimages.com/'>FreeImages</a>";
                 break;
             case 2:
-                imageContainer.style.background = "url('./images/poor-man-1440145.jpg') no-repeat center center";
-                photoCredit.innerHTML = "Photo by <a href='/photographer/colcerex-44488'> Dan Colcer </a> from <a href='https://freeimages.com/'>FreeImages</a>";
+                imageContainer.style.background = "url('./images/japanese-garden-in-wroclaw-1380892-1920x1440.jpg') no-repeat center center";
+                photoCredit.innerHTML = "Photo by <a href='/photographer/green_i-56727'>green_i</a> from <a href='https://freeimages.com/'>FreeImages</a>";
                 break;
             case 3:
-                imageContainer.style.background = "url('./images/goooaalll-1433940.jpg') no-repeat center center";
-                photoCredit.innerHTML = "Photo by <a href='/photographer/danisman-34520'> Emre Danisman </a> from <a href='https://freeimages.com/'>FreeImages</a>";
+                imageContainer.style.background = "url('./images/cherry-trees-in-tokyo-1407243.jpg') no-repeat center center";
+                photoCredit.innerHTML = "Photo by <a href='/photographer/maxbog-49729'>Max Bogaert</a> from <a href='https://freeimages.com/'>FreeImages</a>";
                 break;
         }
         imageContainer.style.backgroundSize = "100% 100%";
